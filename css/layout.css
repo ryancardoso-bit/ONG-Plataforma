@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--space-16);
+    padding: var(--space-16);
+}
+
+header, footer {
+    grid-column: 1 / -1;
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: var(--space-16);
+}
+
+main {
+    grid-column: 1 / -1;
+    padding: var(--space-16);
+}
+
+section {
+    margin-bottom: var(--space-32);
+}
