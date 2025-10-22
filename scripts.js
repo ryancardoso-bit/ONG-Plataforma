@@ -27,3 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
         nav.classList.toggle("show");
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    // Máscaras e hambúrguer já existentes
+    initMasks();
+    initHamburger();
+    renderProjetos();
+});
