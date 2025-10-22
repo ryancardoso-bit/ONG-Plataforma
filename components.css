@@ -1,0 +1,41 @@
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: var(--space-16);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+.card:hover { transform: translateY(-5px); }
+
+button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: var(--space-8) var(--space-16);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+button:hover { background-color: var(--secondary); }
+button:disabled { background-color: #999; cursor: not-allowed; }
+
+label { margin-top: var(--space-8); font-weight: bold; }
+input, select, textarea {
+    padding: var(--space-8);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-16);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: var(--accent);
+    color: white;
+    font-size: var(--font-sm);
+    margin-right: var(--space-8);
+}
