@@ -1,0 +1,26 @@
+:root {
+  /* Paleta de cores */
+  --primary: #005a8d;
+  --secondary: #007bba;
+  --accent: #f0a500;
+  --success: #2e7d32;
+  --warning: #f57c00;
+  --danger: #d32f2f;
+  --light: #f8f9fa;
+  --dark: #333;
+
+  /* Tipografia */
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+
+  /* Espaçamento modular */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+}
