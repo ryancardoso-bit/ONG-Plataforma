@@ -3,45 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG Exemplo - Projetos</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Plataforma ONG - Projetos</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo da ONG">
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h1>Projetos Sociais</h1>
-        <section>
-            <article>
-                <h2>Projeto A</h2>
-                <img src="images/projeto1.jpg" alt="Imagem do Projeto A">
-                <p>Descrição do Projeto A, objetivo e impacto social.</p>
-            </article>
-
-            <article>
-                <h2>Projeto B</h2>
-                <img src="images/projeto2.jpg" alt="Imagem do Projeto B">
-                <p>Descrição do Projeto B, objetivo e impacto social.</p>
-            </article>
-        </section>
-
-        <section>
-            <h2>Como Participar</h2>
-            <p>Você pode se voluntariar ou realizar doações para nossos projetos.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 ONG Exemplo. Todos os direitos reservados.</p>
-    </footer>
+<header>
+    <h1>Projetos Sociais</h1>
+    <button class="hamburger">☰</button>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <section>
+        <h2>Projetos em andamento</h2>
+        <article class="card">
+            <h3>Projeto Esperança</h3>
+            <p>Atendimento a famílias em situação de vulnerabilidade.</p>
+        </article>
+        <article class="card">
+            <h3>Educação para o Futuro</h3>
+            <p>Oficinas de capacitação profissional para jovens.</p>
+        </article>
+        <article class="card">
+            <h3>Voluntariado Consciente</h3>
+            <p>Engajamento de voluntários em ações de impacto.</p>
+        </article>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Plataforma ONG - Todos os direitos reservados.</p>
+</footer>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>
